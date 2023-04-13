@@ -1,25 +1,39 @@
+.p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .vertical-menu {
-    width: 200px;
-  }
+    width: 260px;
+    text-align: center;
+    font-family: 'Courier New';
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
   
-  .vertical-menu a {
-    background-color: #eee;
-    color: black;
+.center{
+    font-family: 'Calibri';
+    text-align: center;
+}
+
+.vertical-menu a {
+    background-color: #c408ca;
+    color: rgb(250, 247, 247);
     display: block;
     padding: 12px;
     text-decoration: none;
-  }
+}
   
-  .vertical-menu a:hover {
-    background-color: #ccc;
-  }
-  
-  .vertical-menu a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  img{
-    width: 200px;
-    height: 200px;
-  }
+.vertical-menu a:hover {
+    background-color: #6b036e;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
